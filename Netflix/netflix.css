@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("header-image.png");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 70vh;
+    position: relative;
+}
+
+.box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.65;
+    background-color: black;
+    position: absolute;
+    /*ancestor*/
+    top: 0;
+    bottom: 0;
+}
+
+nav {
+    width: 80vw;
+    justify-content: space-evenly;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 62px;
+}
+
+nav img {
+    width: 113px;
+    position: relative;
+    Z-index: 10;
+    font-family: bold;
+}
+
+nav button {
+    position: relative;
+    Z-index: 10;
+}
+
+.hero {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-family: "Martel Sans", sans-serif;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.span1 {
+    font-family: 'poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+
+.span2 {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.span3 {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.seperation {
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+}
+
+.btn {
+    font-family: 'poppins', sans-serif;
+    padding: 3px 8px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+
+.btn-red-s {
+    background-color: red;
+    color: white;
+}
+
+.main input {
+    background-color: rgba(23, 23, 23, 0.7);
+    padding: 7px 101px 8px 14px;
+    font-size: 12px;
+    border-radius: 4px;
+    font-weight: 900;
+    border: 1px solid rgba(246, 238, 238, 0.7);
+    color: white;
+
+}
+
+.hero-button-s {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+
+}
+
+
+.secimg {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    /* Increase if needed */
+    margin-bottom: 50px;
+    overflow: visible;
+}
+
+.tv-image {
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+
+}
+
+.screen-video {
+    position: absolute;
+    top: 20%;
+    /* Adjust this to perfectly align with TV screen */
+    right: 15%;
+    /* Adjust this to match your image's screen area */
+    width: 70%;
+    /* Resize to fit properly within the TV frame */
+    z-index: 5;
+    /* Make sure it's behind TV image if needed */
+}
+
+.imac-container {
+    position: relative;
+    width: 640px;
+    /* match iMac image width */
+    margin: auto;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    /* Increase if needed */
+    margin-bottom: 50px;
+    overflow: visible;
+}
+
+.tv-image1 {
+    width: 100%;
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+
+.screen-video1 {
+    position: absolute;
+    top: 15%;
+    left: 17%;
+    width: 65%;
+    height: 42%;
+    object-fit: cover;
+    z-index: 1;
+    border-radius: 6px;
+    /* optional for smooth corners */
+}
+
+
+.enjoy {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.watch {
+    font-size: 24px;
+    
+}
+
+.faq{
+    background-color: black;
+    color:white;
+    font-size: 24px;
+}
+.fbox {
+    display: flex;
+    justify-content: space-between;
+    background-color:#2c2c2c;
+    padding: 24px;
+    max-width:60vw;
+    margin: 34px auto;
+    cursor:pointer;
+    transition: all 1s ease-out;
+    color:white;
+
+}
+.faq h2{
+    text-align: center;
+    padding:34px;
+    font-size: 48px;
+}
+.fbox:hover{
+    background-color: #414141;
+    color:white;
+    
+
+}
+.fbox svg{
+    filter:invert(1);
+}
+
+.footer-pannel2 {
+    background-color: black;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.q{
+   background-color: black;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content:flex-start; 
+    margin-top: 10px;
+}
